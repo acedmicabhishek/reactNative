@@ -1,21 +1,7 @@
-# React Native & Expo — Core Learning Path
-
-A deep-dive research repo covering React Native from basics to custom engine architecture.
-Each topic has its own dedicated guide.
 
 ---
 
-## 📁 Folder Structure
-
-```
-reactNative/
-├── 01-core-concepts/          ← React Native fundamentals
-└── 02-architecture-and-performance/ ← Internals, engines, custom infra
-```
-
----
-
-## 📘 01 · Core React Native Concepts
+## 01 · Core React Native Concepts
 
 | # | Topic | File |
 |---|-------|------|
@@ -28,7 +14,7 @@ reactNative/
 
 ---
 
-## ⚙️ 02 · Architecture & Performance (Under the Hood)
+## 02 · Architecture & Performance (Under the Hood)
 
 | # | Topic | File |
 |---|-------|------|
@@ -45,12 +31,3 @@ reactNative/
 | 11 | Android Build System (Gradle, R8, CMake, AAB, ProGuard) | [11-android-build-system.md](./02-architecture-and-performance/11-android-build-system.md) |
 | 12 | Native Infrastructure (custom C++ modules, custom renderers, custom JS engines) | [12-native-infrastructure.md](./02-architecture-and-performance/12-native-infrastructure.md) |
 
----
-
-## 🎯 Goal
-
-Understand the full stack deeply enough to:
-1. Identify exactly **where** performance is lost at each layer
-2. **Bypass** framework limitations with custom C++ / JSI modules
-3. Build **new rendering infrastructure** (custom Fabric renderer, custom JS engine)
-4. Design a **better framework** than standard React Native where needed
