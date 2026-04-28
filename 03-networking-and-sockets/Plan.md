@@ -1,8 +1,4 @@
-# Plan for NativeSocketIO
-**Project Objective:** To eliminate performance bottlenecks in our React Native application by offloading real-time networking and data processing from the JavaScript (JS) thread to a dedicated C++ native core.
-**Key Result:** A JSI-powered (JavaScript Interface) drop-in replacement for `NativeSocketIO` that delivers 60fps UI performance even under heavy network load, with **zero required changes** to our existing backend infrastructure.
-
----
+# NativeSocketIO
 
 ## `@matiks/nativesocketio`
 ### Key Architectural Advantages:
